@@ -1,0 +1,17 @@
+.add-book-form ul {
+    background-color: rgb(183, 182, 182);
+    width: 200px;
+    padding: 0;
+    background-color: burlywood;
+
+}
+
+.add-book-form li {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.add-book-form li:not(:last-child) {
+    border-bottom: 2px solid black;
+}

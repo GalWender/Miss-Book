@@ -1,0 +1,32 @@
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.name {
+    background-color: bisque;
+}
+.img-container {
+    flex-wrap: wrap;
+}
+
+.clean-list {
+    list-style-type: none;
+    text-decoration: none;
+}

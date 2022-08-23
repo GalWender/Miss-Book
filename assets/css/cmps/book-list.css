@@ -1,0 +1,50 @@
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    text-align: center;
+    
+    
+}
+
+.book-list article {
+    margin-top: 20px;
+    padding-bottom: 20PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    background-color: rgb(245, 219, 170);
+    cursor: pointer;
+}
+
+.book-list article:hover {
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.img-container {
+
+}
+
+.book-list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h4 {
+    text-align: center;
+    margin: auto;
+}
+
+@keyframes shadow-pop-tr {
+    0% {
+              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+              transform: translateX(0) translateY(0);
+    }
+    
+    100% {
+              box-shadow: 1px -1px #5e5e5e, 2px -2px #5e5e5e, 3px -3px #5e5e5e, 4px -4px #5e5e5e, 5px -5px #5e5e5e, 6px -6px #5e5e5e, 7px -7px #5e5e5e, 8px -8px #5e5e5e;
+              transform: translateX(-8px) translateY(8px);
+    }
+  }

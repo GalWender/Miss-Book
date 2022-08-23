@@ -1,0 +1,38 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.book-details button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 30px;
+    
+}
+.book-details img {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.free-text {
+    width: 200px;
+    height: 170px;
+    margin: 20px;
+}
+
+.review-add {
+    display: flex;
+    flex-direction: column;
+}
